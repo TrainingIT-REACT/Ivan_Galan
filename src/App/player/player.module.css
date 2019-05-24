@@ -1,0 +1,7 @@
+.container {
+    width: 100vw;
+    height: 90px;
+    background: #282828;
+    position: fixed;
+    bottom: 0px;
+}

@@ -6,4 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 18%, rgba(0,0,0,1) 83%, rgba(0,0,0,1) 100%);
+  overflow: hidden;
+}
+
+a {
+  color: gray;
 }
