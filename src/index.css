@@ -8,8 +8,31 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(135deg, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 18%, rgba(0,0,0,1) 83%, rgba(0,0,0,1) 100%);
   overflow: hidden;
+
+  scrollbar-color: rgba(100, 3, 3, 0.486) rgba(0, 0, 0, 0);
+  scrollbar-width: thin;
 }
 
 a {
   color: gray;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 3, 3, 0.486);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
 }

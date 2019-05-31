@@ -1,8 +1,12 @@
 .App {
   margin: 3em auto;
+  margin-top: 0px;
   width: calc(100vw - 250px);
   display: inline-block;
   color: white;
+  margin-left: 250px;
+  height: calc(100vh - 90px);
+  overflow: auto;
 }
 
 .App h1 {

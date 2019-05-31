@@ -4,8 +4,19 @@
     height: 100vh;
     padding-left: 20px;
     padding-top: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.link:hover {
+    color: white;
 }
 
 .icon {
     margin-right: 10px;
+}
+
+.active {
+    color: white;
 }

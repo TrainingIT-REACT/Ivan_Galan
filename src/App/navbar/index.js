@@ -1,13 +1,14 @@
 import React from 'react';
 import style from './navbar.module.css';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav className={style.container}>
-            <Link to='/' className="nav-link" href="#"><i className={["fas fa-user", style.icon].join(' ')}></i> User</Link>
-            <a className="nav-link" href="#"><i className={["fas fa-bookmark", style.icon].join(' ')}></i> Favoritos</a>
-            <a className="nav-link" href="#"><i className={["fas fa-search", style.icon].join(' ')}></i> Buscar</a>
+            <NavLink to='/home' className={["nav-link", style.link].join(' ')} activeClassName={style.active}><i className={["fas fa-home", style.icon].join(' ')}></i> Home</NavLink>
+            <NavLink to='/profile' className={["nav-link", style.link].join(' ')} activeClassName={style.active}><i className={["fas fa-user", style.icon].join(' ')}></i> User</NavLink>
+            <NavLink to='/favorites' className={["nav-link", style.link].join(' ')} activeClassName={style.active}><i className={["fas fa-bookmark", style.icon].join(' ')}></i> Favorites</NavLink>
+            <NavLink to='/find' className={["nav-link", style.link].join(' ')} activeClassName={style.active}><i className={["fas fa-search", style.icon].join(' ')}></i> Find</NavLink>
         </nav>
   );
 }

@@ -1,0 +1,34 @@
+.container {
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: ease .5s;
+}
+
+.container:hover figure {
+    filter: blur(3px);
+}
+
+.container:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.container:active figure {
+    transform: scale(.9)
+}
+
+figure {
+    box-shadow: 5px 5px 10px black;
+    transition: ease .5s;
+}
+
+.img {
+    width: 100%;
+}
+
+.text {
+    margin-top: -10px;
+}

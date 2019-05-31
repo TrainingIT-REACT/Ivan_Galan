@@ -1,0 +1,31 @@
+.header {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header figure{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.header figure img{
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.listitem {
+    padding: 20px 0px;
+    transition: ease .5s;
+    cursor: pointer;
+}
+
+.listitem:hover {
+    background-color: rgba(41, 9, 9, 0.596);
+}

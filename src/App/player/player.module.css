@@ -4,4 +4,53 @@
     background: #282828;
     position: fixed;
     bottom: 0px;
+    color: white;
+}
+
+.bar {
+    height: 3px;
+}
+
+.controlsContainer {
+    margin: auto;
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dataContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.centerPanel {
+    position: absolute;
+    left: calc(100vw / 2 - 150px);
+    text-align: center;
+}
+
+.cover {
+    margin-top: 5px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+}
+
+.cover figcaption {
+    margin-left: 10px;
+}
+
+.cover img {
+    width: 80px;
+}
+
+.songName {
+    margin-top: 5px;
+    display: block;
+}
+
+.disabled {
+    color: gray;
 }
